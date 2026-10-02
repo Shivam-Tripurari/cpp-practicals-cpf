@@ -72,11 +72,6 @@ int main()
             {
                 cout<<i+1<<" "<<name[i]<<" "<<score[i]<<endl;
             }
-
-
-
         }
-
-        cout<<"Name:Dakshraj Vaghela ; ID:26DCE114";
 
 }
