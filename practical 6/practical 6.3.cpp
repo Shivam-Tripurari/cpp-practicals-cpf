@@ -262,14 +262,5 @@ int main()
 
 
 
-
-
-
-
-    cout<<"Name:Dakshraj Vaghela ; ID:26DCE114";
-
-
-
-
 }
 
