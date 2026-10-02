@@ -23,6 +23,4 @@ int main()
         }
         cout<<endl;
     }
-
-    cout<<"Name:Dakshraj Vaghela ; ID:26DCE114";
 }
