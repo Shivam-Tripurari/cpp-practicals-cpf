@@ -68,7 +68,5 @@ int main()
     cout<<"minimum number:"<<min<<endl;
     cout<<endl;
 
-    cout<<"Name:Dakshraj Vaghela ; ID:26DCE114";
-
 }
 
