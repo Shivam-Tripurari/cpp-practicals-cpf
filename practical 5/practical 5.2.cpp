@@ -12,30 +12,40 @@ int main()
     "               STUDENT RECORD MANAGEMENT SYSTEM              "<<endl<<
     "*********************************************************************************"<<endl<<endl<<endl;
     do
-{
+    {
 
 
 
 
-    cout<<endl<<"enrollment no:";
-    cin>>en;
-    cout<<endl;
-    cout<<"student name"<<setw(2)<<":";
-    cin>>name;
-    cout<<endl;
-    cout<<"branch"<<setw(8)<<":";
-    cin>>branch;
-    cout<<endl;
-    cout<<"semester"<<setw(6)<<":";
-    cin>>sem;
-    cout<<endl;
-    cout<<"phone number"<<setw(2)<<":";
-    cin>>mob;
-    cout<<endl<<endl;
-    cout<<"student registered successfully"<<endl;
+        cout<<endl<<"enrollment no:";
+        cin>>en;
+        cout<<endl;
+        cout<<"student name"<<setw(2)<<":";
+        cin>>name;
+        cout<<endl;
+        cout<<"branch"<<setw(8)<<":";
+        cin>>branch;
+        cout<<endl;
+        cout<<"semester"<<setw(6)<<":";
+        cin>>sem;
+        cout<<endl;
+        cout<<"phone number"<<setw(2)<<":";
+        cin>>mob;
+        cout<<endl<<endl;
+        cout<<"student registered successfully"<<endl;
 
-    cout<<"register another student?(Y/N):";
-    cin>>ch;
+        M:cout<<"register another student?(Y/N):";
+        cin>>ch;
+        if(ch!="Y" && ch!="N")
+        {
+            cout<<"invalid input!"<<endl;
+            goto M;
+
+        }
+        else if(ch=="N")
+        {
+            break;
+        }
     }
     while(ch=="y"||ch=="Y");
 }
