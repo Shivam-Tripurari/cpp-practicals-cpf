@@ -171,6 +171,30 @@ int main()
                 }
 
             }
+            l=strlen(cat);
+            cout<<"Length:"<<l<<endl;
+            cout<<"String Copied Successfully"<<endl;
+            if(strcmp(pal,rpal)==0)
+            {
+                cout<<"Comparison Result:Equal"<<endl;
+            }
+            else
+            {
+                cout<<"Comparison Result:Not Equal"<<endl;
+            }
+            cout<<"Concatenation:Successful"<<endl;
+            if(found==true)
+            {
+                cout<<"Substring Search: Found"<<endl;
+            }
+            else
+            {
+                cout<<"Substring Search: Not Found"<<endl;
+            }
+            cout<<"toupper():Successful"<<endl;
+            cout<<"tolower():Successful"<<endl;
+            return 0;
+
 
 
 
