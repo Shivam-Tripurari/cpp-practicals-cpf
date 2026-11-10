@@ -11,7 +11,7 @@ int main()
     cout<<"****************************************************************************"<<endl<<
         "              SPORTS EVENT SCORE ANALYSIS                    "<<endl<<
         "******************************************************************************"<<endl<<endl;
-
+    //data input operation
     cout<<"enter number of participants:";
     cin>>n;
     for(i=0; i<n; i++)
@@ -26,6 +26,8 @@ int main()
         cout<<endl;
     }
 
+    
+    //search operations
     cout<<"search student"<<endl;
 
     cout<<"Enter student id"<<endl;
@@ -43,6 +45,7 @@ int main()
         }
     }
 
+    //reordering data based on scores
         for(i=0; i<n-1; i++)
         {
             for(j=i+1; j<n; j++)
