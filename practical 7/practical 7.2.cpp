@@ -169,6 +169,7 @@ int main()
                 {
                     cout<<"Result : Palindrome"<<endl;
                 }
+            cout<<"-----------------------------------"<<endl;
 
             }
             l=strlen(cat);
