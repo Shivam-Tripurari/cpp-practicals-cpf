@@ -51,18 +51,25 @@ int main()
     cout<<"Enter keyword :";
     cin.ignore();
     cin.getline(key,25);
-    for(i=0;key[i]!='\0';i++)
+    bool found=false;
+    for(i=0; sname[i]!='\0'; i++)
     {
-        for(j=0;sname[j]!='\0';j++)
+        if(strstr(sname,key)!=NULL)
         {
-            if(sname[j]==key[i])
-            {
-                cout<<"keyword found"<<endl;
-                goto M;
-            }
+            found=true;
+            break;
         }
     }
-  M:cout<<" student report   "<<endl;
+    if(found)
+    {
+        cout<<"Keyword Found"<<endl;
+    }
+    else
+    {
+        cout<<"Keyword Not Found"<<endl;
+    }
+
+    cout<<" student report   "<<endl;
     cout<<"Enrollment Number   :"<<en<<endl<<"Student Name        :"<<sname<<endl<<"Branch              :"<<b;
 
 
