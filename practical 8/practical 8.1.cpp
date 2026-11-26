@@ -17,10 +17,8 @@ void acceptStudentdetails(char (&enrollment_no)[10],char (&name)[15],char (&bran
 {
     cout<<"-------------------Student registration-----------------------\n";
     cout<<"Enter enrollment number: ";
-    cin.ignore();
     cin.getline(enrollment_no,10);
     cout<<"Enter student name: ";
-    cin.ignore();
     cin.getline(name,15);
     cout<<"Enter Branch: ";
     cin>>branch;
