@@ -47,7 +47,7 @@ void showScope()
 }
 void displayBill(int amount,int serviceCharge)
 {
-    cout<<amount;
+    cout<<amount<<endl;
     cout<<serviceCharge;
 }
 
