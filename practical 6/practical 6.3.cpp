@@ -43,25 +43,25 @@ int main()
                     {
                         cout<<"grade"<<setw(10)<<":"<<"O"<<endl;
                     }
-                    else if(score[i]<90||score[i]>=80)
+                    else if(score[i]<90 && score[i]>=80)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A+"<<endl;
                     }
-                    else if(score[i]<80||score[i]>=70)
+                    else if(score[i]<80 && score[i]>=70)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A"<<endl;
 
                     }
-                    else if(score[i]<70||score[i]>=60)
+                    else if(score[i]<70 && score[i]>=60)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"B"<<endl;
                     }
-                    else if(score[i]<60||score[i]>=50)
+                    else if(score[i]<60 && score[i]>=50)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"B="<<endl;
 
                     }
-                    else if(score[i]<50||score[i]>=40)
+                    else if(score[i]<50 && score[i]>=40)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"C"<<endl;
                     }
@@ -124,23 +124,23 @@ int main()
                     {
                         cout<<"grade"<<setw(10)<<":"<<"O"<<endl;
                     }
-                    else if(score[m]<90||score[m]>=80)
+                    else if(score[m]<90 && score[m]>=80)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A+"<<endl;
                     }
-                    else if(score[m]<80||score[m]>=70)
+                    else if(score[m]<80 && score[m]>=70)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A"<<endl;
                     }
-                    else if(score[m]<70||score[m]>=60)
+                    else if(score[m]<70 && score[m]>=60)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"B+"<<endl;
                     }
-                    else if(score[m]<60||score[m]>=50)
+                    else if(score[m]<60 && score[m]>=50)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"B"<<endl;
                     }
-                    else if(score[m]<50||score[m]>=40)
+                    else if(score[m]<50 && score[m]>=40)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"C"<<endl;
                     }
@@ -192,24 +192,24 @@ int main()
                             {
                                 cout<<"grade"<<setw(10)<<":"<<"O"<<endl;
                             }
-                            else if(score[i]<90||score[i]>=80)
+                            else if(score[i]<90 && score[i]>=80)
                             {
                                 cout<<"grade"<<setw(10)<<":"<<"A+"<<endl;
                             }
-                            else if(score[i]<80||score[i]>=70)
+                            else if(score[i]<80 && score[i]>=70)
                             {
                                 cout<<"grade"<<setw(10)<<":"<<"A"<<endl;
 
                             }
-                            else if(score[i]<70||score[i]>=60)
+                            else if(score[i]<70 && score[i]>=60)
                             {
                                 cout<<"grade"<<setw(10)<<":"<<"B"<<endl;
                             }
-                            else if(score[i]<60||score[i]>=50)
+                            else if(score[i]<60 && score[i]>=50)
                             {
                                 cout<<"grade"<<setw(10)<<":"<<"B="<<endl;
                             }
-                            else if(score[i]<50||score[i]>=40)
+                            else if(score[i]<50 && score[i]>=40)
                             {
                                 cout<<"grade"<<setw(10)<<":"<<"C"<<endl;
                             }
