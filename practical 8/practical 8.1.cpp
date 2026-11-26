@@ -17,11 +17,13 @@ void acceptStudentdetails(char (&enrollment_no)[10],char (&name)[15],char (&bran
 {
     cout<<"-------------------Student registration-----------------------\n";
     cout<<"Enter enrollment number: ";
+    cin.ignore();
     cin.getline(enrollment_no,10);
     cout<<"Enter student name: ";
+    cin.ignore();
     cin.getline(name,15);
     cout<<"Enter Branch: ";
-    cin.getline(branch,15);
+    cin>>branch;
     cout<<"Enter Semester: ";
     cin>>semester;
 
@@ -93,7 +95,7 @@ void calculateAcademicResult(int (&marks)[5],int &totalmarks,float &percentage,c
 
 
 }
-void acceptStudentdetails(char (&enrollment_no)[10],char (&name)[15],char (&branch)[10],
+void displayStudentdetails(char (&enrollment_no)[10],char (&name)[15],char (&branch)[10],
                           int &semester,int &totalmarks,float &percentage,char (&grade)[17],char (&result)[16])
 {
 
@@ -129,7 +131,7 @@ int main()
 
     calculateAcademicResult(marks, totalmarks,percentage,grade,result);
 
-    acceptStudentdetails(enrollment_no,name,branch,
+    displayStudentdetails(enrollment_no,name,branch,
                          semester,totalmarks,percentage,grade,result);
 
 }
