@@ -45,27 +45,27 @@ int main()
                 cout<<"grade"<<setw(10)<<":"<<"O"<<endl;
                 cout<<"performance"<<setw(4)<<":"<<"outstanding"<<endl;
             }
-            else if(avg<90||avg>=80)
+            else if(avg<90 && avg>=80)
             {
                 cout<<"grade"<<setw(10)<<":"<<"A+"<<endl;
                 cout<<"performance"<<setw(4)<<":"<<"excellent"<<endl;
             }
-            else if(avg<80||avg>=70)
+            else if(avg<80 && avg>=70)
             {
                 cout<<"grade"<<setw(10)<<":"<<"A"<<endl;
                 cout<<"performance"<<setw(4)<<":"<<"very good"<<endl;
             }
-            else if(avg<70||avg>=60)
+            else if(avg<70 && avg>=60)
             {
                 cout<<"grade"<<setw(10)<<":"<<"B"<<endl;
                 cout<<"performance"<<setw(4)<<":"<<"Good"<<endl;
             }
-            else if(avg<60|avg>=50)
+            else if(avg<60 && avg>=50)
             {
                 cout<<"grade"<<setw(10)<<":"<<"B="<<endl;
                 cout<<"performance"<<setw(4)<<":"<<"satisfactory"<<endl;
             }
-            else if(avg<50||avg>=40)
+            else if(avg<50 && avg>=40)
             {
                 cout<<"grade"<<setw(10)<<":"<<"C"<<endl;
                 cout<<"performance"<<setw(4)<<":"<<"needs improvement"<<endl;
